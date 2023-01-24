@@ -70,6 +70,9 @@
 						0 12px 5px rgba(0, 0, 0, 0.1);
 					animation: rotate ease-in-out 1s infinite alternate;
 				}
+				.hv:hover {
+					color: red;
+				}
 				p {
 					font-size: 20px;
 					text-shadow: 0 1px 0 #efefef;
@@ -78,7 +81,7 @@
 			</style>
 			<div class="container">
 				<h1>Made with HTML &amp; CSS<br/>not an animated GIF</h1>
-				<p>Click to see the source</p>
+				<p class="hv" >Click to see the source</p>
 			</div>
 		</div>
 	</foreignObject>
