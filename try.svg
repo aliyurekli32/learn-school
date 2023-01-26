@@ -87,7 +87,7 @@
 			
     <script>
         const a=document.getElementById("name");
-	    a.style.color = "blue";
+	    a.innerHTML = "blue";
     </script>
 			
 			
