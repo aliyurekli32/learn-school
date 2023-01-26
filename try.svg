@@ -82,11 +82,12 @@
 			<div class="container">
 				<h1>Made with HTML &amp; CSS<br/>not an animated GIF</h1>
 				<p class="hv" >Click to see the source</p>
-				<p  > Aslan </p>
+				<p id="name" > Aslan </p>
 			</div>
 			
     <script>
-        
+        const a=document.getElementById("name");
+	    a.style.color = "blue";
     </script>
 			
 			
