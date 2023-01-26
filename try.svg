@@ -82,7 +82,41 @@
 			<div class="container">
 				<h1>Made with HTML &amp; CSS<br/>not an animated GIF</h1>
 				<p class="hv" >Click to see the source</p>
+				<p  > Aslan </p>
 			</div>
+			<div class="container"> 
+        <h1 style="text-align:center;color:green;"> 
+          GeeksforGeeks 
+      </h1> 
+        <form> 
+            <div class="form-group"> 
+                <label for="">Enter Your Name:</label> 
+                <input id="name"
+                       class="form-control" 
+                       type="text" 
+                       placeholder="Input Your Name Here"> 
+            </div> 
+            <div class="form-group"> 
+                <button id="btn-alert"
+                        class="btn btn-success btn-lg float-right" 
+                        type="submit"> 
+                     Submit  
+                </button> 
+            </div> 
+        </form> 
+    </div> 
+    <script>
+        var user_name = document.getElementById("name");
+        document.getElementById("btn-alert").addEventListener("click", function(){
+            var value=user_name.value.trim();
+            if(!value)
+                alert("Name Cannot be empty!");
+            else
+                alert("Hello, " + value + "!\nGreetings From GeeksforGeeks.");
+        });
+    </script>
+			
+			
 		</div>
 	</foreignObject>
 </svg>
