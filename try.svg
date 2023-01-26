@@ -9,10 +9,7 @@
       </body>
     </foreignObject>
     
-    <text font-size="10" font-family="Verdana">
-      <tspan x="10" y="10">Here is a paragraph that</tspan>
-      <tspan x="10" y="20">requires word wrap.</tspan>
-    </text>
+   
 
 </svg>
 
